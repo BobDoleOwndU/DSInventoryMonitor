@@ -97,8 +97,6 @@ namespace DSInventoryMonitor
 
             CloseHandle(processHandle);
 
-            Debug.WriteLine(charDataAddress.ToString("x"));
-
             return charDataAddress;
         } //ReadMemory
 

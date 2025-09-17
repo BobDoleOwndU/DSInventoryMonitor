@@ -53,7 +53,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>alien32.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\alien32.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -110,7 +110,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="alien32.ico" />
     <Content Include="Resources\alien32.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
